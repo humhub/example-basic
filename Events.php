@@ -1,6 +1,6 @@
 <?php
 
-namespace humhubContrib\modules\exampleBasic;
+namespace acmeCorp\humhub\modules;
 
 use Yii;
 use yii\helpers\Url;

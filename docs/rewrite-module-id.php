@@ -1,7 +1,7 @@
 <?php
 
 $newModuleId = "example-basic";
-$newNamespace = 'humhubContrib\modules';
+$newNamespace = 'acmeCorp\humhub\modules';
 
 # ---------------------------------------------------------------------------------------------------------------
 
@@ -26,9 +26,6 @@ print "Convert module id\n";
 print "\tOld:\t" . $oldModuleId . "\t(" . dashesToCamelCase($oldModuleId) . ")\n";
 print "\tNew:\t" . $newModuleId . "\t(" . dashesToCamelCase($newModuleId) . ")\n";
 print "\n";
-
-exit;
-
 
 if (strpos($newModuleId, $oldModuleId) !== false && $oldModuleId !== $newModuleId) {
     print "Old module ID cannot be part of the new module id!\n";

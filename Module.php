@@ -1,23 +1,22 @@
 <?php
 
-namespace humhubContrib\modules\exampleBasic;
+namespace acmeCorp\humhub\modules;
 
-use Yii;
 use yii\helpers\Url;
 
 class Module extends \humhub\components\Module
 {
     /**
-    * @inheritdoc
-    */
+     * @inheritdoc
+     */
     public function getConfigUrl()
     {
         return Url::to(['/example-basic/admin']);
     }
 
     /**
-    * @inheritdoc
-    */
+     * @inheritdoc
+     */
     public function disable()
     {
         // Cleanup all module data, don't remove the parent::disable()!!!

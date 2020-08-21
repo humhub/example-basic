@@ -1,6 +1,6 @@
 <?php
 
-use humhubContrib\modules\exampleBasic\assets\Assets;
+use acmeCorp\humhub\modules\assets\Assets;
 use humhub\widgets\Button;
 
 // Register our module assets, this could also be done within the controller
