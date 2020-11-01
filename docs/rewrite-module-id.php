@@ -1,5 +1,7 @@
 <?php
 
+# ----- Configuration -------------------------------------------------------------------------------------------
+
 $newModuleId = "example-basic";
 $newNamespace = 'acmeCorp\humhub\modules';
 

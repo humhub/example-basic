@@ -8,11 +8,6 @@ class IndexController extends Controller
 {
 
     /**
-     * @inheritdoc
-     */
-    public $subLayout = "@example-basic/views/layouts/default";
-
-    /**
      * Renders the index view for the module
      *
      * @return string
