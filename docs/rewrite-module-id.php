@@ -64,12 +64,15 @@ foreach (new RecursiveIteratorIterator($it) as $file) {
     }
 }
 
-function camelCaseToDashed($className)
+/**
+ * @return string
+ */
+function camelCaseToDashed($className): string
 {
     return strtolower(preg_replace('/([a-zA-Z])(?=[A-Z])/', '$1-', $className));
 }
 
-function dashesToCamelCase($string, $capitalizeFirstCharacter = false)
+function dashesToCamelCase($string, $capitalizeFirstCharacter = false): string
 {
     $str = str_replace(' ', '', ucwords(str_replace('-', ' ', $string)));
     if (!$capitalizeFirstCharacter) {

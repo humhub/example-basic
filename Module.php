@@ -21,6 +21,8 @@ class Module extends \humhub\components\Module
 
     /**
      * @inheritdoc
+     *
+     * @return void
      */
     public function disable()
     {

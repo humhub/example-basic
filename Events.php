@@ -15,8 +15,10 @@ class Events
      * Defines what to do when the top menu is initialized.
      *
      * @param $event
+     *
+     * @return void
      */
-    public static function onTopMenuInit($event)
+    public static function onTopMenuInit($event): void
     {
         /** @var TopMenu $topMenuWidget */
         $topMenuWidget = $event->sender;
@@ -34,8 +36,10 @@ class Events
      * Defines what to do if admin menu is initialized.
      *
      * @param $event Event
+     *
+     * @return void
      */
-    public static function onAdminMenuInit($event)
+    public static function onAdminMenuInit($event): void
     {
         /** @var AdminMenu $adminMenuWidget */
         $adminMenuWidget = $event->sender;

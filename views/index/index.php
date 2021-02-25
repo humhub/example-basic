@@ -1,5 +1,7 @@
 <?php
 
+/* @var $this \humhub\modules\ui\view\components\View */
+
 use acmeCorp\humhub\modules\assets\Assets;
 use humhub\widgets\Button;
 
@@ -15,9 +17,7 @@ $this->registerJsConfig("example-basic", [
         'hello' => Yii::t('ExampleBasicModule.base', 'Hi there {name}!', ["name" => $displayName])
     ]
 ])
-
 ?>
-
 
 <div class="container">
     <div class="row">
@@ -101,7 +101,7 @@ $this->registerJsConfig("example-basic", [
 
                     <hr/>
 
-<pre>function preFormatting() {
+                    <pre>function preFormatting() {
     // looks like this;
     var something = somethingElse;
     return true;
@@ -192,11 +192,11 @@ $this->registerJsConfig("example-basic", [
                         </tr>
                         </tbody>
                     </table>
-                    
-                    <br />
-                    
+
+                    <br/>
+
                     <p>Another table style:</p>
-                    
+
                     <table class="table table-striped table-bordered table-condensed">
                         <thead>
                         <tr>
