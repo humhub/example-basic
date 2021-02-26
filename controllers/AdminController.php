@@ -1,6 +1,6 @@
 <?php
 
-namespace acmeCorp\humhub\modules\controllers;
+namespace acmeCorp\humhub\modules\exampleBasic\controllers;
 
 use humhub\modules\admin\components\Controller;
 

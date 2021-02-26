@@ -1,5 +1,5 @@
 actor: Tester
-namespace: acmeCorp\humhub\modules\codeceptionTest
+namespace: acmeCorp\humhub\modules\exampleBasic\codeceptionTest
 bootstrap: _bootstrap.php
 settings:
     suite_class: \PHPUnit_Framework_TestSuite

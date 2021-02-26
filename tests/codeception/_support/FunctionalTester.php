@@ -5,7 +5,7 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace acmeCorp\humhub\modules\codeceptionTest;
+namespace acmeCorp\humhub\modules\exampleBasic\codeceptionTest;
 
 /**
  * Inherited Methods

@@ -9,6 +9,6 @@ return [
     'modules' => ['example-basic'],
     'fixtures' => [
         'default',
-        //'exam' => 'acmeCorp\humhub\modules\tests\codeception\fixtures\ExamFixture',
+        //'exam' => 'acmeCorp\humhub\modules\exampleBasic\tests\codeception\fixtures\ExamFixture',
     ]
 ];

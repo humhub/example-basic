@@ -1,6 +1,6 @@
 <?php
 
-namespace acmeCorp\humhub\modules\codeceptionTest;
+namespace acmeCorp\humhub\modules\exampleBasic\codeceptionTest;
 
 use tests\codeception\_support\HumHubDbTestCase;
 

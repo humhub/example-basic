@@ -5,7 +5,7 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace acmeCorp\humhub\modules\tests\codeception\fixtures;
+namespace acmeCorp\humhub\modules\exampleBasic\tests\codeception\fixtures;
 
 use humhub\modules\post\models\Post;
 use yii\test\ActiveFixture;
@@ -16,6 +16,6 @@ class ExamFixture extends ActiveFixture
 
     public $dataFile = '@example-basic/tests/codeception/fixtures/data/exam.php';
     public $depends = [
-        //'acmeCorp\humhub\modules\tests\codeception\fixtures\ExamReadFixture',
+        //'acmeCorp\humhub\modules\exampleBasic\tests\codeception\fixtures\ExamReadFixture',
     ];
 }

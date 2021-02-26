@@ -1,8 +1,8 @@
 <?php
 
-namespace acmeCorp\humhub\modules\codeceptionTest\acceptance;
+namespace acmeCorp\humhub\modules\exampleBasic\codeceptionTest\acceptance;
 
-use acmeCorp\humhub\modules\codeceptionTest\AcceptanceTester;
+use acmeCorp\humhub\modules\exampleBasic\codeceptionTest\AcceptanceTester;
 
 class AdminAreaCest
 {

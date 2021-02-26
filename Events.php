@@ -1,6 +1,6 @@
 <?php
 
-namespace acmeCorp\humhub\modules;
+namespace acmeCorp\humhub\modules\exampleBasic;
 
 use humhub\modules\admin\permissions\ManageModules;
 use humhub\modules\admin\widgets\AdminMenu;

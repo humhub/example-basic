@@ -3,7 +3,7 @@
 # ----- Configuration -------------------------------------------------------------------------------------------
 
 $newModuleId = "example-basic";
-$newNamespace = 'acmeCorp\humhub\modules';
+$newNamespace = 'acmeCorp\humhub\modules\exampleBasic';
 
 # ---------------------------------------------------------------------------------------------------------------
 

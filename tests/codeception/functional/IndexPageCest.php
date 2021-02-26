@@ -5,9 +5,9 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace acmeCorp\humhub\modules\codeceptionTest\functional;
+namespace acmeCorp\humhub\modules\exampleBasic\codeceptionTest\functional;
 
-use acmeCorp\humhub\modules\codeceptionTest\FunctionalTester;
+use acmeCorp\humhub\modules\exampleBasic\codeceptionTest\FunctionalTester;
 
 class IndexPageCest
 {
