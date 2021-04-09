@@ -2,6 +2,7 @@
 
 # ----- Configuration -------------------------------------------------------------------------------------------
 
+// New Module ID in KebabCase (e.g. my-plugin, super-plugin, voting)
 $newModuleId = "example-basic";
 $newNamespace = 'acmeCorp\humhub\modules\exampleBasic';
 
@@ -50,6 +51,7 @@ foreach (new RecursiveIteratorIterator($it) as $file) {
     // Replace in files
     $fileContent = file_get_contents($file);
     $fileContent = str_replace($oldModuleId, $newModuleId, $fileContent);
+    $fileContent = str_replace(ucfirst($oldModuleId), ucfirst($newModuleId), $fileContent);
     $fileContent = str_replace(dashesToCamelCase($oldModuleId), dashesToCamelCase($newModuleId), $fileContent);
     $fileContent = str_replace($oldNamespace, $newNamespace, $fileContent);
     file_put_contents($file, $fileContent);
