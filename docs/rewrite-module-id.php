@@ -50,11 +50,11 @@ foreach (new RecursiveIteratorIterator($it) as $file) {
 
     // Replace in files
     $fileContent = file_get_contents($file);
+    $fileContent = str_replace($oldNamespace, $newNamespace, $fileContent);
     $fileContent = str_replace($oldModuleId, $newModuleId, $fileContent);
     $fileContent = str_replace(ucfirst($oldModuleId), ucfirst($newModuleId), $fileContent);
     $fileContent = str_replace(dashesToCamelCase($oldModuleId), dashesToCamelCase($newModuleId), $fileContent);
     $fileContent = str_replace(ucfirst(dashesToCamelCase($oldModuleId)), ucfirst(dashesToCamelCase($newModuleId)), $fileContent);
-    $fileContent = str_replace($oldNamespace, $newNamespace, $fileContent);
     file_put_contents($file, $fileContent);
     print "Searched&replaced in: " . $file . "\n";
 
