@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.2 (Unreleased)
+----------------------
+- Enh #5: Add `requirements.php`
+
 1.0.1 (April 19, 2021)
 ----------------------
 - Fix #1: Rename Module ID Script misses translation codes
