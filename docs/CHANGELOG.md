@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.1.0 (Unreleased)
+----------------------
+- Fix #7: Update module resources path
+
 1.0.2 (Unreleased)
 ----------------------
 - Enh #5: Add `requirements.php`
