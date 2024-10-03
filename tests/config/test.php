@@ -10,5 +10,5 @@ return [
     'fixtures' => [
         'default',
         //'exam' => 'acmeCorp\humhub\modules\exampleBasic\tests\codeception\fixtures\ExamFixture',
-    ]
+    ],
 ];

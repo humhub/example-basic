@@ -50,7 +50,7 @@ class Events
             'icon' => 'info-circle',
             'sortOrder' => 1000,
             'isActive' => (Yii::$app->controller->module && Yii::$app->controller->module->id == 'example-basic' && Yii::$app->controller->id == 'admin'),
-            'isVisible' => Yii::$app->user->can(ManageModules::class)
+            'isVisible' => Yii::$app->user->can(ManageModules::class),
         ]));
     }
 }

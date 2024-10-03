@@ -9,8 +9,8 @@ class Module extends \humhub\components\Module
     /**
      * @inheritdoc
      */
-    public $resourcesPath = 'resources';    
-    
+    public $resourcesPath = 'resources';
+
     /**
      * @inheritdoc
      */

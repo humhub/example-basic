@@ -10,6 +10,6 @@ return [
     'namespace' => 'acmeCorp\humhub\modules\exampleBasic',
     'events' => [
         [TopMenu::class, TopMenu::EVENT_INIT, [Events::class, 'onTopMenuInit']],
-        [AdminMenu::class, AdminMenu::EVENT_INIT, [Events::class, 'onAdminMenuInit']]
+        [AdminMenu::class, AdminMenu::EVENT_INIT, [Events::class, 'onAdminMenuInit']],
     ],
 ];
