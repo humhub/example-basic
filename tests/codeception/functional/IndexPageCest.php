@@ -11,15 +11,16 @@ use acmeCorp\humhub\modules\exampleBasic\codeceptionTest\FunctionalTester;
 
 class IndexPageCest
 {
-
-    public function testTopMenu(FunctionalTester $I) {
+    public function testTopMenu(FunctionalTester $I)
+    {
         $I->wantTo('see top menu entry');
         $I->amUser();
         $I->amOnDashboard();
         $I->see('EXAMPLE');
     }
 
-    public function testIndexPage(FunctionalTester $I) {
+    public function testIndexPage(FunctionalTester $I)
+    {
         $I->wantTo('go to module page');
         $I->amAdmin();
         $I->amOnDashboard();

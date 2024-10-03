@@ -6,7 +6,6 @@ use humhub\modules\admin\components\Controller;
 
 class AdminController extends Controller
 {
-
     /**
      * Render admin only page
      *
@@ -18,4 +17,3 @@ class AdminController extends Controller
     }
 
 }
-

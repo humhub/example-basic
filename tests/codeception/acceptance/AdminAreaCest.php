@@ -6,7 +6,6 @@ use acmeCorp\humhub\modules\exampleBasic\codeceptionTest\AcceptanceTester;
 
 class AdminAreaCest
 {
-
     public function testAdminInfoPage(AcceptanceTester $I)
     {
         $I->wantTo('see admin info page');
