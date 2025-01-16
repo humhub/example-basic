@@ -15,7 +15,7 @@ Clone the module and then delete the Git files. This is necessary to move the mo
 ``` 
 cd my-new-project
 git clone https://github.com/humhub/humhub-modules-example-basic.git .
-rm .git -rf
+rm -rf .git
 ```
 
 
