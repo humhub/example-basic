@@ -40,5 +40,3 @@ $newNamespace = 'coolSoft\humhub\modules\formbuilder';
 cd docs/
 php rewrite-module-id.php
 ```
-
-4.) Run the `docs/rewrite-id.php` from shell.
