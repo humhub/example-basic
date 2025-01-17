@@ -15,7 +15,7 @@ Clone the module and then delete the Git files. This is necessary to move the mo
 ``` 
 cd my-new-project
 git clone https://github.com/humhub/humhub-modules-example-basic.git .
-rm .git -rf
+rm -rf .git
 ```
 
 
@@ -34,11 +34,9 @@ $newNamespace = 'coolSoft\humhub\modules\formbuilder';
 // ...
 ```
 
-3.) Run the `docs/rewrite-id.php` from shell.
+3.) Run the `docs/rewrite-module-id.php` from shell.
 
 ``` 
 cd docs/
 php rewrite-module-id.php
 ```
-
-4.) Run the `docs/rewrite-id.php` from shell.
