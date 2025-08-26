@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.1.0 (Unreleased)
+----------------------
+- Enh #12: Migration to Bootstrap 5 for HumHub 1.18
+
 1.0.2 (Unreleased)
 ----------------------
 - Enh #5: Add `requirements.php`

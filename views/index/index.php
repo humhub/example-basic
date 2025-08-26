@@ -1,9 +1,11 @@
 <?php
 
-/* @var $this \humhub\modules\ui\view\components\View */
+/* @var $this View */
 
 use acmeCorp\humhub\modules\exampleBasic\assets\Assets;
-use humhub\widgets\Button;
+use humhub\components\View;
+use humhub\widgets\bootstrap\Alert;
+use humhub\widgets\bootstrap\Button;
 
 // Register our module assets, this could also be done within the controller
 Assets::register($this);
@@ -21,7 +23,7 @@ $this->registerJsConfig("example-basic", [
 
 <div class="container">
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-lg-8">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <strong>Example-basic</strong> <?= Yii::t('ExampleBasicModule.base', 'overview') ?></div>
@@ -303,27 +305,19 @@ $this->registerJsConfig("example-basic", [
                 <div class="panel-heading">Panel-Heading: Bootstrap Elements</div>
                 <div class="panel-body">
 
-                    <div class="alert alert-warning">
-                        Warning Alert
-                    </div>
+                    <?= Alert::warning('Warning Alert') ?>
 
-                    <div class="alert alert-info">
-                        Info Alert
-                    </div>
+                    <?= Alert::info('Info Alert') ?>
 
-                    <div class="alert alert-success">
-                        Success Alert
-                    </div>
+                    <?= Alert::success('Success Alert') ?>
 
-                    <div class="alert alert-danger">
-                        Danger Alert
-                    </div>
+                    <?= Alert::danger('Danger Alert')->closeButton(false) ?>
 
                 </div>
             </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-lg-4">
             <div class="panel panel-default">
                 <div class="panel-heading"><strong>Example</strong> basic</div>
                 <div class="panel-body">
@@ -335,5 +329,3 @@ $this->registerJsConfig("example-basic", [
 
     </div>
 </div>
-
-

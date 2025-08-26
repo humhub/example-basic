@@ -2,7 +2,7 @@
 
 namespace acmeCorp\humhub\modules\exampleBasic\assets;
 
-use yii\web\AssetBundle;
+use humhub\components\assets\AssetBundle;
 
 class Assets extends AssetBundle
 {
@@ -14,11 +14,9 @@ class Assets extends AssetBundle
     /**
      * @inheritdoc
      */
-    public $publishOptions = [
-        // TIPP: Change forceCopy to true when testing your js in order to rebuild
-        // this assets on every request (otherwise they will be cached)
-        'forceCopy' => false,
-    ];
+    // TIP: Change forceCopy to true when testing your js in order to rebuild
+    // this assets on every request (otherwise they will be cached)
+    public $forceCopy = false;
 
     /**
      * @inheritdoc
