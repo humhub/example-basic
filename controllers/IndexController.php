@@ -6,7 +6,6 @@ use humhub\components\Controller;
 
 class IndexController extends Controller
 {
-
     /**
      * Renders the index view for the module
      *
@@ -18,4 +17,3 @@ class IndexController extends Controller
     }
 
 }
-
