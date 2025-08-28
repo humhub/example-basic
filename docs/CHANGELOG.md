@@ -3,6 +3,7 @@ Changelog
 
 1.1.0 (Unreleased)
 ----------------------
+- Fix #7: Update module resources path
 - Enh #12: Migration to Bootstrap 5 for HumHub 1.18
 
 1.0.2 (Unreleased)
