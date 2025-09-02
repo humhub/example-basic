@@ -1,0 +1,15 @@
+/*
+// Depending on your needs, you might have to import the Boostrap SCSS functions, variables, mixins or breakpoints:
+
+// By default, our build scripts will search for the Humhub installation at `/opt/humhub`.
+// It may therefore be useful to work with a symbolic link::
+// sudo ln -s /path/to/humhub /opt/humhub
+
+@import "/opt/humhub/protected/vendor/bower-asset/bootstrap/scss/functions";
+@import "/opt/humhub/protected/vendor/bower-asset/bootstrap/scss/variables";
+@import "/opt/humhub/protected/vendor/bower-asset/bootstrap/scss/mixins";
+@import "/opt/humhub/protected/vendor/bower-asset/bootstrap/scss/mixins/breakpoints";
+*/
+.exampleBasicBlock {
+  color: red;
+}
