@@ -10,4 +10,5 @@ jobs:
   tests:
     uses: humhub/module-coding-standards/.github/workflows/codeception-master.yml@main
     with:
+      module-id: example-basic
       use-rest-module: false
