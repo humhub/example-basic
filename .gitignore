@@ -1,4 +1,5 @@
 .htaccess
 nbproject
 .idea
+vendor/
 .gitmodules
