@@ -11,4 +11,5 @@ jobs:
   tests:
     uses: humhub/module-coding-standards/.github/workflows/codeception-next.yml@main
     with:
+      module-id: example-basic
       use-rest-module: false
