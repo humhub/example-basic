@@ -511,12 +511,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/humhub/module-coding-standards.git",
-                "reference": "53884dd487ab8965ee71a6f2bf57ce302da195fa"
+                "reference": "c569737c17577d7003d5afe39dd57d281df0b1f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humhub/module-coding-standards/zipball/53884dd487ab8965ee71a6f2bf57ce302da195fa",
-                "reference": "53884dd487ab8965ee71a6f2bf57ce302da195fa",
+                "url": "https://api.github.com/repos/humhub/module-coding-standards/zipball/c569737c17577d7003d5afe39dd57d281df0b1f6",
+                "reference": "c569737c17577d7003d5afe39dd57d281df0b1f6",
                 "shasum": ""
             },
             "require": {
@@ -551,7 +551,7 @@
                 "source": "https://github.com/humhub/module-coding-standards/tree/main",
                 "issues": "https://github.com/humhub/module-coding-standards/issues"
             },
-            "time": "2025-10-17T16:54:08+00:00"
+            "time": "2025-10-17T18:31:26+00:00"
         },
         {
             "name": "phpstan/phpstan",
