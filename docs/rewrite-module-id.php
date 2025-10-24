@@ -72,7 +72,7 @@ foreach (new RecursiveIteratorIterator($it) as $file) {
  */
 function camelCaseToDashed($className): string
 {
-    return strtolower(preg_replace('/([a-zA-Z])(?=[A-Z])/', '$1-', (string) $className));
+    return strtolower((string) preg_replace('/([a-zA-Z])(?=[A-Z])/', '$1-', (string) $className));
 }
 
 function dashesToCamelCase($string, $capitalizeFirstCharacter = false): string
