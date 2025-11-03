@@ -1,6 +1,7 @@
 <?php
 
 namespace acmeCorp\humhub\modules\exampleBasic\models;
+
 use humhub\components\SettingsManager;
 use Yii;
 use yii\base\Model;
