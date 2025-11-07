@@ -4,3 +4,4 @@ nbproject
 vendor/
 .gitmodules
 node_modules/
+composer.lock
