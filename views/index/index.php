@@ -152,7 +152,7 @@ $this->registerJsConfig("example-basic", [
                                 Do you like them?
                             </td>
                         </tr>
-                        <tr class="success">
+                        <tr class="table-success">
                             <td>
                                 3
                             </td>
@@ -162,7 +162,7 @@ $this->registerJsConfig("example-basic", [
                             <td>
                             </td>
                         </tr>
-                        <tr class="danger">
+                        <tr class="table-danger">
                             <td>
                                 4
                             </td>
@@ -172,7 +172,7 @@ $this->registerJsConfig("example-basic", [
                             <td>
                             </td>
                         </tr>
-                        <tr class="warning">
+                        <tr class="table-warning">
                             <td>
                                 5
                             </td>
@@ -182,7 +182,7 @@ $this->registerJsConfig("example-basic", [
                             <td>
                             </td>
                         </tr>
-                        <tr class="active">
+                        <tr class="table-active">
                             <td>
                                 6
                             </td>
@@ -199,7 +199,7 @@ $this->registerJsConfig("example-basic", [
 
                     <p>Another table style:</p>
 
-                    <table class="table table-striped table-bordered table-condensed">
+                    <table class="table table-striped table-bordered table-sm">
                         <thead>
                         <tr>
                             <th>

@@ -41,10 +41,19 @@ if (str_contains($newNamespace, $oldNamespace) && $oldNamespace !== $newNamespac
 }
 
 
+$skipDirs = ['.git', '.idea', 'vendor', 'node_modules'];
+$skipExtensions = ['png', 'jpg', 'jpeg', 'gif', 'ico'];
+
 $it = new RecursiveDirectoryIterator($baseDir);
 foreach (new RecursiveIteratorIterator($it) as $file) {
     /** @var SplFileInfo $file */
-    if (str_contains($file, '.git') || str_contains($file, '.idea') || $file->isDir() || $file == __FILE__) {
+    $relativePath = str_replace('\\', '/', substr($file->getPathname(), strlen($baseDir) + 1));
+    if (
+        $file->isDir()
+        || $file == __FILE__
+        || array_intersect(explode('/', $relativePath), $skipDirs)
+        || in_array(strtolower($file->getExtension()), $skipExtensions, true)
+    ) {
         continue;
     }
 

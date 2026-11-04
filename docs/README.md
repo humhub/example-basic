@@ -1,4 +1,4 @@
-[![PHP Codeception Tests](https://github.com/humhub/humhub-modules-example-basic/actions/workflows/php-test.yml/badge.svg)](https://github.com/humhub/humhub-modules-example-basic/actions/workflows/php-test.yml)
+[![PHP Codeception Tests](https://github.com/humhub/example-basic/actions/workflows/codeception-master.yml/badge.svg)](https://github.com/humhub/example-basic/actions/workflows/codeception-master.yml)
 
 # Basic Example Module
 
@@ -14,7 +14,7 @@ Clone the module and then delete the Git files. This is necessary to move the mo
 
 ``` 
 cd my-new-project
-git clone https://github.com/humhub/humhub-modules-example-basic.git .
+git clone https://github.com/humhub/example-basic.git .
 rm -rf .git
 ```
 
