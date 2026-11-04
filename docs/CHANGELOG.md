@@ -7,6 +7,7 @@ Changelog
 - Enh #12: Migration to Bootstrap 5 for HumHub 1.18
 - Enh #14: Improved Module Test GitHub Actions
 - Enh: Added Config Dialog
+- Fix #20: Bootstrap 5 table classes in the example page, README links and module ID rewrite script skipping `.github`
 
 1.0.2 (Unreleased)
 ----------------------
