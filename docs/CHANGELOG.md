@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.2.0 (Unreleased)
+----------------------
+- Enh: `MenuLink` of the core namespace instead of the deprecated `ui` module class
+
 1.1.0 (Unreleased)
 ----------------------
 - Fix #7: Update module resources path

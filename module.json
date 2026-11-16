@@ -4,9 +4,9 @@
     "description": "A very basic module example",
     "keywords": [
     ],
-    "version": "1.1.0",
+    "version": "1.2.0",
     "humhub": {
-        "minVersion": "1.18"
+        "minVersion": "1.20"
     },
     "screenshots": ["resources/module_image.png"]
 }

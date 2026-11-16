@@ -4,7 +4,7 @@ namespace acmeCorp\humhub\modules\exampleBasic;
 
 use humhub\modules\admin\permissions\ManageModules;
 use humhub\modules\admin\widgets\AdminMenu;
-use humhub\modules\ui\menu\MenuLink;
+use humhub\widgets\menu\MenuLink;
 use humhub\widgets\TopMenu;
 use Yii;
 use yii\base\Event;
